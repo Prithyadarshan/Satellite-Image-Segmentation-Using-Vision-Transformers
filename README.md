@@ -4,7 +4,6 @@ An educational deep-learning project for pixel-wise segmentation of satellite an
 
 Given an overhead RGB image, the model predicts a class for every pixel and creates a color-coded segmentation map. A Google Colab upload workflow lets you select an image, view the prediction and overlay, and download the generated outputs. The companion Python modules separate dataset loading, model setup, training, evaluation, tiled prediction, and visualization.
 
-> **Important:** This project is a learning prototype. It needs paired images and pixel-level masks for training. Adding a class name to the configuration does not teach the model to recognize that class.
 
 ## Project goals
 
